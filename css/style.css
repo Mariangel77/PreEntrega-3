@@ -122,10 +122,32 @@ ul .lista a {
   font-weight: bolder;
   font-size: 300%;
   color: white;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .flex-home1 .flex-alineacion .este-verano-parrafo {
   color: white;
   font-weight: bolder;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 
 .flex-home2 {
@@ -140,8 +162,19 @@ ul .lista a {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  margin-left: 5%;
+  margin-left: 15%;
   margin-right: 5%;
+  animation-duration: 4s;
+  animation-name: aparecer;
+  animation-iteration-count: infinite;
+}
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }
 .flex-home2 .flex-alineacion .unete-parrafo {
   color: #066540;
@@ -177,6 +210,94 @@ ul .lista a {
   }
   .revisa-parrafo {
     color: #066540;
+  }
+}
+.body-menu {
+  margin: 0% 8% 0% 8%;
+}
+.body-menu .disdrutalos {
+  font-size: large;
+}
+.body-menu .conoce {
+  font-size: 30px;
+}
+.body-menu .bebida {
+  font-size: 100%;
+  margin-top: 70px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 20px;
+}
+.body-menu .comida {
+  font-size: 100%;
+  margin-top: 70px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 20px;
+}
+.body-menu .en-casa {
+  font-size: 100%;
+  margin-top: 70px;
+  border-bottom: 1px solid black;
+  border-top: 1px solid black;
+  padding: 20px;
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+  .body-menu .disdrutalos {
+    font-size: 20px;
+  }
+  .body-menu .conoce {
+    font-size: 15px;
+  }
+  .body-menu .bebida {
+    font-size: 18px;
+    margin-top: 70px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+  }
+  .body-menu .comida {
+    font-size: 18px;
+    margin-top: 70px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+  }
+  .body-menu .en-casa {
+    font-size: 18px;
+    margin-top: 70px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    padding: 20px;
+  }
+}
+.nuestro-cafe {
+  font-size: 350%;
+  font-weight: bolder;
+  color: white;
+  background-color: #1c3b33;
+  text-align: center;
+  padding: 70px;
+}
+
+.body-cafe {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.body-cafe .primer-parrafo-cafe {
+  margin-top: 5%;
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+  .nuestro-cafe {
+    font-size: 200%;
+    text-align: left;
+    padding: 30px;
+  }
+  .body-cafe {
+    margin-left: 3%;
+    margin-right: 3%;
   }
 }
 
