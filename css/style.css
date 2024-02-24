@@ -400,5 +400,77 @@ ul .lista a {
     font-size: 100%;
   }
 }
+.nuestra-historia {
+  font-size: 350%;
+  font-weight: bolder;
+  color: white;
+  background-color: #1c3b33;
+  text-align: center;
+  padding: 40px;
+  margin-bottom: 5%;
+}
+
+.body-nuestra {
+  margin-left: 30%;
+  margin-right: 30%;
+}
+.body-nuestra .parrafo1 {
+  text-align: center;
+  margin-top: 7%;
+}
+.body-nuestra .parrafo2 {
+  text-align: center;
+  margin-top: 7%;
+}
+.body-nuestra .parrafo3 {
+  text-align: center;
+  margin-top: 7%;
+}
+.body-nuestra .parrafo4 {
+  text-align: center;
+  margin-top: 7%;
+}
+.body-nuestra .parrafo5 {
+  text-align: center;
+  margin-top: 7%;
+}
+.body-nuestra .parrafo6 {
+  text-align: center;
+  margin-top: 7%;
+}
+
+@media (min-width: 200px) and (max-width: 800px) {
+  .nuestra-historia {
+    font-size: 189%;
+  }
+  .parrafo1 {
+    font-size: small;
+    text-transform: capitalize;
+  }
+  .parrafo2 {
+    font-size: small;
+    text-transform: capitalize;
+  }
+  .parrafo3 {
+    font-size: small;
+    text-transform: capitalize;
+  }
+  .parrafo4 {
+    font-size: small;
+    text-transform: capitalize;
+  }
+  .parrafo5 {
+    font-size: small;
+    text-transform: capitalize;
+  }
+  .parrafo6 {
+    font-size: small;
+    text-transform: capitalize;
+  }
+  .body-nuestra {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
