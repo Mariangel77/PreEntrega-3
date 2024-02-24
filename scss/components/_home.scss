@@ -1,10 +1,9 @@
 .flex-home1{
     display: flex;
-    flex-direction: row;
     background-color: #e281a9;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-bottom: 3%;
+    flex-direction: row;
+    margin: 0% 7% 3% 7%; /*/margen-flex-1-2/*/
+
 
     .flex-alineacion{
         display: flex;
@@ -15,12 +14,12 @@
 
         .un-momento-parrafo{
             text-transform: uppercase;
-            font-weight: bolder;
+            font-weight: bolder; /*/font-standar/*/
             font-size: 300%;
-            color: white;
+            color: white; /*/color-letra/*/
             animation-duration: 4s;
-        animation-name: aparecer;
-        animation-iteration-count: infinite;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
 
         @keyframes aparecer {
             0%{
@@ -34,11 +33,11 @@
         }
         
         .este-verano-parrafo{
-            color: white;
-            font-weight: bolder;
+            color: white; /*/color-letra/*/
+            font-weight: bolder; /*/font-standar/*/
             animation-duration: 4s;
-        animation-name: aparecer;
-        animation-iteration-count: infinite;
+            animation-name: aparecer;
+            animation-iteration-count: infinite;
 
         @keyframes aparecer {
             0%{
@@ -57,10 +56,8 @@
 .flex-home2{
     display: flex;
     flex-direction: row;
-    background-color: #d5eae3;
-    margin-left: 7%;
-    margin-right: 7%;
-    margin-bottom: 5px;
+    background-color: #d5eae3; /*/bg-color-home2/*/
+    margin: 0% 7% 3% 7%; /*/margen-flex-1-2/*/
 
     .flex-alineacion{
         display: flex;
@@ -83,14 +80,14 @@
         }
 
         .unete-parrafo{
-            color: #066540;
-            font-weight: bolder;
+            color: #066540; /*/color-standar/*/
+            font-weight: bolder; /*/font-standar/*/
             font-size: 250%;
         }
         
         .revisa-parrafo{
-            color: #066540;
-            font-weight: bolder;
+            color: #066540; /*/color-standar/*/
+            font-weight: bolder; /*/font-standar/*/
         }
     }
 }
@@ -100,12 +97,12 @@
     .flex-home1{
         display: flex;
         flex-direction: column;
-        background-color: #e281a9;
+        background-color: #e281a9; /*/bg-color-home1/*/
         margin-bottom: 3%;
 
         .un-momento-parrafo{
             font-size: 150%;
-            color: white;
+            color: white; /*/color-standar/*/
         }
     }
 
@@ -114,19 +111,19 @@
     .flex-home2{
         display: flex;
         flex-direction: column;
-        background-color: #d5eae3;
+        background-color: #d5eae3; /*/bg-color-home2/*/
         margin-left: 7%;
         margin-right: 7%;
         
     }
 
     .unete-parrafo{
-        color: #066540;
+        color: #066540; /*/color-standar/*/
         font-size: 150%;
     }
     
     .revisa-parrafo{
-        color: #066540;
+        color: #066540; /*/color-standar/*/
     }
 
 }

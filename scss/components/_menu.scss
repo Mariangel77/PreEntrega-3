@@ -12,29 +12,29 @@
 
     .bebida{
 
-        font-size: 100%;
+        font-size: 100%; /*/font-menu/*/
         margin-top: 70px;
-        border-bottom: 1px solid black;
-        border-top: 1px solid black;
+        border-bottom: 1px solid black; /*/border-standar-bottom/*/
+        border-top: 1px solid black; /*/border-standar-top/*/
         padding: 20px;
         
     }
 
     .comida{
 
-        font-size: 100%;
+        font-size: 100%; /*/font-menu/*/
         margin-top: 70px;
-        border-bottom: 1px solid black;
-        border-top: 1px solid black;
+        border-bottom: 1px solid black; /*/border-standar-bottom/*/
+        border-top: 1px solid black; /*/border-standar-top/*/
         padding: 20px;
     }
 
     .en-casa{
 
-        font-size: 100%;
+        font-size: 100%; /*/font-menu/*/
         margin-top: 70px;
-        border-bottom: 1px solid black;
-        border-top: 1px solid black;
+        border-bottom: 1px solid black; /*/border-standar-bottom/*/
+        border-top: 1px solid black; /*/border-standar-top/*/
         padding: 20px;
     }
 }
@@ -48,34 +48,20 @@
     
         .conoce{
     
-            font-size: 15px;
+            font-size: 18px; /*/font-menu-media/*/
         }
     
         .bebida{
 
-            font-size: 18px;
-            margin-top: 70px;
-            border-bottom: 1px solid black;
-            border-top: 1px solid black;
-            padding: 20px;
-    
+            font-size: 18px; /*/font-menu-media/*/
         }
 
         .comida{
-            font-size: 18px;
-            margin-top: 70px;
-            border-bottom: 1px solid black;
-            border-top: 1px solid black;
-            padding: 20px;
-            
+            font-size: 18px; /*/font-menu-media/*/
         }
         
         .en-casa{
-            font-size: 18px;
-            margin-top: 70px;
-            border-bottom: 1px solid black;
-            border-top: 1px solid black;
-            padding: 20px;
+            font-size: 18px; /*/font-menu-media/*/
             
         }
     }
