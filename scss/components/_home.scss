@@ -1,3 +1,90 @@
+.flex-home1{
+    display: flex;
+    flex-direction: row;
+    background-color: #e281a9;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 3%;
+
+    .flex-alineacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        .un-momento-parrafo{
+            text-transform: uppercase;
+            font-size: 300%;
+            color: white;
+        }
+        
+        .este-verano-parrafo{
+            color: white;
+        }
+    }
+}
 
 
+.flex-home2{
+    display: flex;
+    flex-direction: row;
+    background-color: #d5eae3;
+    margin-left: 7%;
+    margin-right: 7%;
+    margin-bottom: 5px;
+
+    .flex-alineacion{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin-left: 5%;
+        margin-right: 5%;
+
+        .unete-parrafo{
+            color: #066540;
+            font-size: 250%;
+        }
+        
+        .revisa-parrafo{
+            color: #066540;
+        }
+    }
+}
+
+@media (min-width:200px) and (max-width:800px){
+
+    .flex-home1{
+        display: flex;
+        flex-direction: column;
+        background-color: #e281a9;
+        margin-bottom: 3%;
+
+        .un-momento-parrafo{
+            font-size: 150%;
+            color: white;
+        }
+    }
+
+
+
+    .flex-home2{
+        display: flex;
+        flex-direction: column;
+        background-color: #d5eae3;
+        margin-left: 7%;
+        margin-right: 7%;
+        
+    }
+
+    .unete-parrafo{
+        color: #066540;
+        font-size: 150%;
+    }
+    
+    .revisa-parrafo{
+        color: #066540;
+    }
+
+}
 
